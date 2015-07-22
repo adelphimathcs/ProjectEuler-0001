@@ -4,7 +4,7 @@ isMultOf3or5 <- function(n) {
 
 
 sumBelow <- function(cap) {
-  sum <- 0
+  sum = 0
   for(i in 1:cap-1){
     if(isMultOf3or5(i)){
       sum = sum + i
