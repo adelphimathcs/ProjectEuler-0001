@@ -18,7 +18,7 @@ git clone https://github.com/USERNAME/ProjectEuler-0001.git
 cd ProjectEuler-0001
 ```
 
-Adding a New Solution
+###Adding a New Solution
 
 To add a new solution, just create new folder in ProjectEuler-#### and place your files there. The folder should be the name of the programming language you wrote the solution in. If that folder already exists, put your files in there. If your solution is a mathematical write up, you can write it in a README.md file or post a write-up in LaTeX. If you choose LaTeX, make sure and post the source files, and not just the PDF.
 
