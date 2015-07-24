@@ -18,16 +18,15 @@ git clone https://github.com/USERNAME/ProjectEuler-0001.git
 cd ProjectEuler-0001
 ```
 
-### Adding New Solution
+Adding a New Solution
 
-To add a new solution, just create new folder in `ProjectEuler-0001` and place your files there. If your solution is a mathematical right up, you can right it in a `README.md` file or post a write-up in LaTeX. If you choose LaTeX, make sure and post the source files, and not just the PDF. 
+To add a new solution, just create new folder in ProjectEuler-#### and place your files there. The folder should be the name of the programming language you wrote the solution in. If that folder already exists, put your files in there. If your solution is a mathematical write up, you can write it in a README.md file or post a write-up in LaTeX. If you choose LaTeX, make sure and post the source files, and not just the PDF.
 
 Now that you have added your solution locally, you need to push it to the main repository. 
-
 ```
 git add ./*
 git commit -a -m 'message explaining what you added'
-git push
+git push origin master
 ```
 
 
