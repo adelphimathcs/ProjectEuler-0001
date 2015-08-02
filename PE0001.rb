@@ -5,11 +5,7 @@ end
 
 def mult3or5(upto=1000)
   sum = 0
-  (1...upto).each do |num|
-    if isMult3or5(num)
-      sum += num
-    end
-  end
+  (1...upto).each{ |num| sum += num if isMult3or5(num) }
   sum
 end
 
