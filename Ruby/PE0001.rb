@@ -1,5 +1,5 @@
 def isMult3or5(num)
-  num % 5 == 0 or num % 3 == 0 ? true : false
+  num % 5 == 0 || num % 3 == 0
 end
 
 
